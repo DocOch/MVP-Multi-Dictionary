@@ -1,6 +1,6 @@
 // needs to be a React component with a render method and it needs to be exported
 import React from 'react';
-import ReactDOM from 'reat-dom';
+import ReactDOM from 'react-dom';
 
 class App extends React.Component{
   //constructor(props){
@@ -20,4 +20,4 @@ class App extends React.Component{
   }
 }
 
-ReactDOM.render(<App>, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
