@@ -4,6 +4,8 @@ const path = require('path');
 
 const app = express();
 
+app.use(express.static('node_modules')); //exposes files to client
+app.use(express.static('dist'));
 app.get('/', function(req, res){
 	// display the homepage
 	// res.send('<div><p>hi</p></div>') 

@@ -8,9 +8,11 @@ const config = {
 	},
 	module: {
 		rules: [
-		  { test: /\.js$/,
+		   { // include: path.resolve(__dirname, 'src'),
+		    // query: {presets: ["react", "es2015"]},
+		   test: /\.js$/,
 		  	loader: 'babel-loader',
-		    exclude: /node_modules/
+		    // exclude: /node_modules/
 		  }
 	    ]
 	}
