@@ -14,10 +14,9 @@ class App extends React.Component{
     return (
       <div>
         <p>
-          this is the App component in React
+          Welcome, type a search word in the bar to get started!
         </p>
         <div>
-          
           <Search/>
         </div>
       </div>
